@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="ToDo.css">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+  <title>ToDo</title>
+</head>
+<body>
+  <header class="container-lg  h-20 bg-yellow-500 flex items-center justify-center">
+    <h1 class="text-5xl font-bold" >TODO</h1>
+  </header>
+  <main class="w-full min-h-full bg-blue-200 py-4" style="height: fit-content;" >
+    <section class="w-full  flex justify-center ">
+      <input  class="input-todo w-2/4 px-4 text-2xl font-bold rounded" type="text">
+      <button  class="btn-add bg-orange-700 ml-10 px-10 py-5 rounded shadow hover:bg-orange-500 text-xl font-bold"><i class="fas fa-plus"></i></button>
+    </section>
+    <section class="w-full h-auto  mt-4" >
+      <ul class="list list-none">
+      </ul>
+    </section>
+  </main>
+  
+  <script src="ToDo.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"
+    integrity="sha384-vuFJ2JiSdUpXLKGK+tDteQZBqNlMwAjhZ3TvPaDfN9QmbPb7Q8qUpbSNapQev3YF" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
